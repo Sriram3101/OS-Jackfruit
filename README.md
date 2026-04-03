@@ -105,15 +105,15 @@ sudo dmesg | tail -5
 *Two containers alpha and beta running concurrently under one supervisor process*
 
 ### Screenshot 2 — Metadata tracking
-![Metadata](boilerplate/Screenshot2.png)
+![Metadata](boilerplate/Screenshot1b.png)
 *Output of engine ps showing container IDs, host PIDs, and current states*
 
 ### Screenshot 3 — Bounded-buffer logging
-![Logging](boilerplate/Screenshot3.png)
+![Logging](boilerplate/Screenshot2.png)
 *Log file contents captured through the bounded-buffer logging pipeline*
 
 ### Screenshot 4 — CLI and IPC
-![CLI](boilerplate/Screentshot4.png)
+![CLI](boilerplate/Screentshot1b.png)
 *CLI stop command issued and supervisor responding, demonstrating UNIX domain socket IPC*
 
 ### Screenshot 5 — Soft-limit warning
