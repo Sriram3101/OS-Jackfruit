@@ -100,35 +100,36 @@ sudo dmesg | tail -5
 ## 3. Demo Screenshots
 
 ### Screenshot 1 — Multi-container supervision
-![Multi-container](screenshots/screenshot1.png)
+![Multi-container](boilerplate/screenshot1a.png)
+![Multi-container](boilerplate/screenshot1b.png)
 *Two containers alpha and beta running concurrently under one supervisor process*
 
 ### Screenshot 2 — Metadata tracking
-![Metadata](screenshots/screenshot2.png)
+![Metadata](boilerplate/screenshot2.png)
 *Output of engine ps showing container IDs, host PIDs, and current states*
 
 ### Screenshot 3 — Bounded-buffer logging
-![Logging](screenshots/screenshot3.png)
+![Logging](boilerplate/screenshot3.png)
 *Log file contents captured through the bounded-buffer logging pipeline*
 
 ### Screenshot 4 — CLI and IPC
-![CLI](screenshots/screenshot4.png)
+![CLI](boilerplate/screenshot4.png)
 *CLI stop command issued and supervisor responding, demonstrating UNIX domain socket IPC*
 
 ### Screenshot 5 — Soft-limit warning
-![Soft limit](screenshots/screenshot5.png)
+![Soft limit](boilerplate/screenshot5.png)
 *dmesg showing SOFT LIMIT warning when container RSS exceeds soft threshold*
 
 ### Screenshot 6 — Hard-limit enforcement
-![Hard limit](screenshots/screenshot6.png)
+![Hard limit](boilerplate/screenshot6.png)
 *dmesg showing container killed after exceeding hard limit, supervisor metadata updated to killed state*
 
 ### Screenshot 7 — Scheduling experiment
-![Scheduling](screenshots/screenshot7.png)
+![Scheduling](boilerplate/screenshot7.png)
 *top output showing cpuhi (nice -10) receiving more CPU time than cpulo (nice +10)*
 
 ### Screenshot 8 — Clean teardown
-![Teardown](screenshots/screenshot8.png)
+![Teardown](boilerplate/screenshot8.png)
 *No zombie processes after shutdown, kernel module unloaded cleanly*
 
 ---
