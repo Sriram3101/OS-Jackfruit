@@ -113,7 +113,8 @@ sudo dmesg | tail -5
 *Log file contents captured through the bounded-buffer logging pipeline*
 
 ### Screenshot 4 — CLI and IPC
-![CLI](boilerplate/Screentshot1b.png)
+![CLI](boilerplate/Screenshot4.png)
+![CLI](boilerplate/Screentshot4.png)
 *CLI stop command issued and supervisor responding, demonstrating UNIX domain socket IPC*
 
 ### Screenshot 5 — Soft-limit warning
