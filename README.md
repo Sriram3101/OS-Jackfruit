@@ -113,11 +113,11 @@ sudo dmesg | tail -5
 *Log file contents captured through the bounded-buffer logging pipeline*
 
 ### Screenshot 4 — CLI and IPC
-![CLI](boilerplate/Screenshot4.png)
+![CLI](boilerplate/Screentshot4.png)
 *CLI stop command issued and supervisor responding, demonstrating UNIX domain socket IPC*
 
 ### Screenshot 5 — Soft-limit warning
-![Soft limit](boilerplate/Screenshot5.png)
+![Soft limit](boilerplate/Screentshot5.png)
 *dmesg showing SOFT LIMIT warning when container RSS exceeds soft threshold*
 
 ### Screenshot 6 — Hard-limit enforcement
@@ -125,7 +125,8 @@ sudo dmesg | tail -5
 *dmesg showing container killed after exceeding hard limit, supervisor metadata updated to killed state*
 
 ### Screenshot 7 — Scheduling experiment
-![Scheduling](boilerplate/Screenshot7.png)
+![Scheduling](boilerplate/Screenshot7a.png)
+![Scheduling](boilerplate/Screenshot7b.png)
 *top output showing cpuhi (nice -10) receiving more CPU time than cpulo (nice +10)*
 
 ### Screenshot 8 — Clean teardown
